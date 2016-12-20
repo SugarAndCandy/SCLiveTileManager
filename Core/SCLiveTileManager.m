@@ -172,7 +172,7 @@ static const NSTimeInterval UPDATE_INTERVAL = 0.1;
                 if (self.delegate && [self.delegate respondsToSelector:@selector(containerViewForCellUpdate:atIndex:)]) {
                     container = [self.delegate containerViewForCellUpdate:tile.cellReference atIndex:index];
                 }
-                [tile.cellReference SC_updateLiveCellAnimated:YES
+                [tile.cellReference updateLiveCellAnimated:YES
                                                   animationType:tile.animationType
                                                   containerView:container
                                                     updateBlock:^{
