@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'SCLiveTileManager.podspec'
+  s.name     = 'SCLiveTileManager'
   s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'simple live tile manager'
